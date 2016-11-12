@@ -1,1 +1,2 @@
-# team_green_eggs_and_ham
+# Team Green Eggs and Ham
+Green team's code for FRC Team 3341's Mock Season
