@@ -22,7 +22,7 @@ int threshold(Mat image)
 }
 int main()
 {
-    VideoCapture cap(0); // open the default camera
+    VideoCapture cap(1);
    if(!cap.isOpened())  // check if we succeeded
        return -1;
 
