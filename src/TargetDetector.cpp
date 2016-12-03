@@ -1,10 +1,10 @@
-#include "opencv2/opencv.hpp"
-using namespace cv;
+#include "TargetDetector.hpp"
+#include "Target.hpp"
+#include <iostream>
+//public methods
 
-
-TargetDetector::TargetDetector()
-{
-
+TargetDetector::TargetDetector() {
+    //do derpy things
 }
 
 Target* TargetDetector::processImage(Mat input) {
