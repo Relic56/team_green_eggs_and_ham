@@ -5,7 +5,7 @@
 TargetProcessor::TargetProcessor()
 {
     objectWidth = 0.508; //meters
-    focalLength = 480; //varies by camera
+    focalLength = 480; //varies by camera TODO:update focalLength
     horizCenter = 320; //aslo varies by camera (center horizontal point on video)
     vertCenter = 240; //center vertical point on video
 
