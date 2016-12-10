@@ -94,7 +94,7 @@ std::vector<Point> TargetDetector::filterContours(std::vector<std::vector<Point>
         approxPolyDP(contours[j], outputContour, (cv::arcLength(cv::Mat(contours.at(j)), true) * 0.01), true);
 
 
-        if (contourArea(outputContour) > 100 && outputContour.size() == 8) { //&& isContourConvex(outputContour)) {
+        if (contourArea(outputContour) > 100 && outputContour.size() == 12) { //&& isContourConvex(outputContour)) {
             double maxCosine = 0;
             for(int j = 2; j <=4; j++)
             {
